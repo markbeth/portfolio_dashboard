@@ -1,0 +1,6 @@
+pandas
+dash
+plotly
+streamlit
+openpyxl
+yfinance
