@@ -46,7 +46,7 @@ jobs:
     
     - name: Build and Push Docker Image
       uses: mr-smithers-excellent/docker-build-push@v4
-      if: github.ref == 'refs/heads/main' && job.status == 'success'
+      if: job.status == 'success'
       with:
         image: docker-id/image-name
         registry: docker.io
